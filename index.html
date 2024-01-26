@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="nightowl-daylight"></div>
+<div class="container">
+    <div class="todo-app">
+        <h2>To-Do Checklist <img class="icon" src="images/icon.png" alt="icon"></h2>
+        <div class="row">
+            <input type="text" id="input-bar" placeholder="Lorem Ipsum">
+            <button onclick="addTask()">Add to List</button>
+        </div>
+            <div class="reset-container">
+                <button id="Reset" onclick="resetList()">Reset</button>
+            </div>
+        <ul id="list-container"></ul>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
